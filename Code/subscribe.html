@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LetFlix - Subscription</title>
+    <link rel="stylesheet" href="css/subscribe.css">
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <div id="bg">
+        <div id="navigation">
+            <img src="assets/profile.jpg" alt="profile" id="profile">
+            <div id="name-id">
+                <span id="name">
+                    Guest
+                </span><br>
+                <span id="id">
+                    #00000
+                </span>
+            </div>
+            
+            <div id="settings-logout">
+                <div id="settings">
+                    Settings
+                </div>
+                <div id="logout">
+                    LOG OUT
+                </div>
+            </div>
+        </div>
+        <div id="border"></div>
+        <div id="content">
+            <div id="header">
+                <img src="assets/Logo Transparant White.png" alt="logo" id="logo">
+                <div id="profileheader">
+                    <img src="assets/profile.jpg" alt="" id="profile2">
+                    <span id="name2">
+                        Guest
+                    </span><br>
+                    <span id="id2">
+                        #00000
+                    </span>
+                </div>
+                <div id="dropdown2">
+                    <div id="dropdown-btn2">
+                        <img src="../Answer/assets/burger icon.png" alt="" id="logo2">
+                        <a href="index.html">
+                            <div class="dropdown-item2">
+                                > HOMEPAGE
+                            </div>
+                        </a>
+                        <a href="drama.html">
+                            <div class="dropdown-item2">
+                                > DRAMAS
+                            </div>
+                        </a>
+                        <a href="plan.html">
+                            <div class="dropdown-item2">
+                                > PLAN
+                            </div>
+                        </a>
+                        <a href="subscribe.html">
+                            <div class="dropdown-item2">
+                                > SUBSCRIPTION
+                            </div>
+                        </a>
+                        <a href="about.html">
+                            <div class="dropdown-item2">
+                                > ABOUT
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="dropdown-item2">
+                                > SETTINGS
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="dropdown-item2">
+                                > LOGOUT
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <span id="subscribe-title">
+                Subscription Form
+            </span>
+            <div id="subscription-container">
+                <form action="index.html">
+                    <div class="input-container">
+                        <label for="email">Email: </label><br>
+                        <input type="text" id="email" class="form-input">
+                    </div><br>
+                    <div class="input-container">
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" class="form-input">
+                    </div><br>
+                    <div class="input-container">
+                        <label>Gender: </label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div><br>
+                    <div class="input-container">
+                        <label>Chosen Plan: </label>
+                        <select id="chosen-plan">
+                            <option value="" disabled selected hidden>Choose a Plan</option>
+                            <option value="silver">Silver</option>
+                            <option value="gold">Gold</option>
+                            <option value="diamond">Diamond</option>
+                        </select>
+                    </div><br>
+                    <div class="input-container">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I Agree with Terms and Conditions</label>
+                    </div><br>
+                    <button id="submit-btn">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <div id="footer">
+                ©Copyright by Nicolas, Nicko, Paskah
+            </div>
+        </div>
+    </div>
+    <script src="js/subscribe.js"></script>
+</body>
+</html>
